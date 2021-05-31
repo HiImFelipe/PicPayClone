@@ -20,6 +20,11 @@ export const Option = styled.TouchableOpacity`
 
 export const Image = styled.Image``;
 
+export const LabelContainer = styled.View`
+  flex: 1;
+  justify-content: center;
+`
+
 export const Label = styled.Text`
   color: #fff;
   font-weight: bold;
