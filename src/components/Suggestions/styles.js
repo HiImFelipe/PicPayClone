@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.ScrollView.attrs(() => ({
+  showsHorizontalScrollIndicator: false,
   horizontal: true,
   contentContainerStyle: {
     marginTop: 20,
