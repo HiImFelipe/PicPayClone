@@ -12,19 +12,19 @@ import img7 from '../../images/07.png';
 const items = [
   {
     image: img1,
-    label: 'Doações',
+    label: 'Recarga',
   },
   {
     image: img2,
-    label: 'Doações',
+    label: 'Uber',
   },
   {
     image: img3,
-    label: 'Doações',
+    label: 'Ônibus',
   },
   {
     image: img4,
-    label: 'Doações',
+    label: 'TV',
   },
   {
     image: img5,
@@ -32,11 +32,11 @@ const items = [
   },
   {
     image: img6,
-    label: 'Doações',
+    label: 'Código de Barras',
   },
   {
     image: img7,
-    label: 'Doações',
+    label: 'FAQ',
   },
 ];
 

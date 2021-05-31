@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.ScrollView.attrs(() => ({
   horizontal: true,
   contentContainerStyle: {
-    alignItems: 'center',
+    marginTop: 20,
+    marginBottom: 20,
     paddingLeft: 16,
   },
 }))`
   background-color: #1e222b;
-  height: 130px;
 `;
 
 export const Option = styled.TouchableOpacity`
@@ -24,4 +24,5 @@ export const Label = styled.Text`
   font-weight: bold;
   margin-top: 8px;
   font-size: 14px;
+  text-align: center;
 `;
